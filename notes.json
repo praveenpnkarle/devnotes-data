@@ -98,21 +98,6 @@
   ],
   "folders": [
     {
-      "id": "60446e4a-83d8-494b-9891-1fc69d8c6936",
-      "name": "Work",
-      "updatedAt": 1786621213509
-    },
-    {
-      "id": "eae3c8a5-798e-47b1-b8b1-5bff0b00dca1",
-      "name": "Work",
-      "updatedAt": 1786621219509
-    },
-    {
-      "id": "6340b40b-30cf-4120-927a-cc93a8067d07",
-      "name": "Work",
-      "updatedAt": 1786621338653
-    },
-    {
       "id": "4f973263-1498-4690-bc8d-c4c00ea0d3ca",
       "name": "Work",
       "updatedAt": 1786642807165
@@ -133,6 +118,21 @@
       "id": "27f19835-d1a3-41ad-b6f3-36d3d6b782b6",
       "at": 1786621360436,
       "kind": "note"
+    },
+    {
+      "id": "60446e4a-83d8-494b-9891-1fc69d8c6936",
+      "at": 1786644961855,
+      "kind": "folder"
+    },
+    {
+      "id": "eae3c8a5-798e-47b1-b8b1-5bff0b00dca1",
+      "at": 1786644962604,
+      "kind": "folder"
+    },
+    {
+      "id": "6340b40b-30cf-4120-927a-cc93a8067d07",
+      "at": 1786644963264,
+      "kind": "folder"
     }
   ]
 }
