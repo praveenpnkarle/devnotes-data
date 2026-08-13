@@ -65,81 +65,6 @@
       ],
       "createdAt": 1786618090287,
       "updatedAt": 1786618181912
-    },
-    {
-      "id": "27f19835-d1a3-41ad-b6f3-36d3d6b782b6",
-      "title": "Regenerate MoM",
-      "folderId": "60446e4a-83d8-494b-9891-1fc69d8c6936",
-      "tags": [
-        "sql",
-        "snippets"
-      ],
-      "pinned": true,
-      "createdAt": 1786621213509,
-      "updatedAt": 1786621213509,
-      "blocks": [
-        {
-          "id": "c9288ea4-0010-4b72-8b5a-ff0e45c90169",
-          "type": "markdown",
-          "text": "Query for **deleting a MoM** so it can be regenerated.\n\n> Replace `<YOUR_PROCESS_REF_NUM>` before running."
-        },
-        {
-          "id": "a8b1535b-1edc-465a-8c50-6bdc1286a533",
-          "type": "code",
-          "lang": "sql",
-          "text": "UPDATE process_data\nSET data = data - 'f_15173'\nWHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;"
-        }
-      ]
-    },
-    {
-      "id": "2a5b16b0-eb98-4875-bbab-c253ad1ac233",
-      "title": "Regenerate MoM",
-      "folderId": "eae3c8a5-798e-47b1-b8b1-5bff0b00dca1",
-      "tags": [
-        "sql",
-        "snippets"
-      ],
-      "pinned": true,
-      "createdAt": 1786621219509,
-      "updatedAt": 1786621219509,
-      "blocks": [
-        {
-          "id": "43c4298c-6eea-4f66-aacc-f40bdb1ead3d",
-          "type": "markdown",
-          "text": "Query for **deleting a MoM** so it can be regenerated.\n\n> Replace `<YOUR_PROCESS_REF_NUM>` before running."
-        },
-        {
-          "id": "6499621b-7d58-46b8-979e-42d6b96fb0d0",
-          "type": "code",
-          "lang": "sql",
-          "text": "UPDATE process_data\nSET data = data - 'f_15173'\nWHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;"
-        }
-      ]
-    },
-    {
-      "id": "adccf1e3-68c6-4af9-a055-cdcd9adc9729",
-      "title": "Regenerate MoM",
-      "folderId": "6340b40b-30cf-4120-927a-cc93a8067d07",
-      "tags": [
-        "sql",
-        "snippets"
-      ],
-      "pinned": true,
-      "createdAt": 1786621338653,
-      "updatedAt": 1786621338653,
-      "blocks": [
-        {
-          "id": "eaa07f1a-0c4d-49d8-a637-da7820afe337",
-          "type": "markdown",
-          "text": "Query for **deleting a MoM** so it can be regenerated.\n\n> Replace `<YOUR_PROCESS_REF_NUM>` before running."
-        },
-        {
-          "id": "b8f08078-f9a1-403d-adb3-6223013f251a",
-          "type": "code",
-          "lang": "sql",
-          "text": "UPDATE process_data\nSET data = data - 'f_15173'\nWHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;"
-        }
-      ]
     }
   ],
   "folders": [
@@ -159,5 +84,21 @@
       "updatedAt": 1786621338653
     }
   ],
-  "tombstones": []
+  "tombstones": [
+    {
+      "id": "adccf1e3-68c6-4af9-a055-cdcd9adc9729",
+      "at": 1786621358857,
+      "kind": "note"
+    },
+    {
+      "id": "2a5b16b0-eb98-4875-bbab-c253ad1ac233",
+      "at": 1786621359817,
+      "kind": "note"
+    },
+    {
+      "id": "27f19835-d1a3-41ad-b6f3-36d3d6b782b6",
+      "at": 1786621360436,
+      "kind": "note"
+    }
+  ]
 }
