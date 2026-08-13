@@ -79,7 +79,7 @@
       ],
       "pinned": true,
       "createdAt": 1786642807165,
-      "updatedAt": 1786644806290,
+      "updatedAt": 1786644812645,
       "blocks": [
         {
           "id": "9ccd5f6a-4859-4f5a-ba86-2264e0fdaea8",
@@ -93,7 +93,7 @@
           "text": "UPDATE process_data\nSET data = data - 'f_15173'\nWHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;"
         }
       ],
-      "richmd": "Query for **deleting a MoM** so it can be regenerated.\n\n> Replace `<YOUR_PROCESS_REF_NUM>` before running.\n\n@code(lang=sql, lines=true, filename=regenerate_mom.sql) [SQL Query]\nUPDATE process_data\n  SET data = data - 'f_15173'\n  WHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;\n@end\n\n@callout(type=success) [dcdfd]\nhello \n@end"
+      "richmd": "Query for **deleting a MoM** so it can be regenerated.\n\n> Replace `<YOUR_PROCESS_REF_NUM>` before running. ddfdf dfd\n\n@code(lang=sql, lines=true, filename=regenerate_mom.sql) [SQL Query]\nUPDATE process_data\n  SET data = data - 'f_15173'\n  WHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;\n@end\n\n@callout(type=success) [dcdfd]\nhello\n@end"
     }
   ],
   "folders": [
