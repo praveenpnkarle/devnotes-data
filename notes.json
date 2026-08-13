@@ -55,7 +55,7 @@
         {
           "id": "e906dcc2-4a47-4ff7-b6b1-1e66db195ab1",
           "type": "markdown",
-          "text": ""
+          "text": "## Tasks\n\n- [ ] Create database schema\n- [ ] Create API\n- [ ] Build frontend\n- [x] Setup project\n- [ ] Deploy application"
         },
         {
           "id": "c1e3da4f-406a-438c-a00d-82ba582088de",
@@ -64,7 +64,7 @@
         }
       ],
       "createdAt": 1786618090287,
-      "updatedAt": 1786618178871
+      "updatedAt": 1786618181912
     }
   ],
   "folders": [],
