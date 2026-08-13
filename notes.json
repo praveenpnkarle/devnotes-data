@@ -44,6 +44,22 @@
       ],
       "createdAt": 1786359160939,
       "updatedAt": 1786359432264
+    },
+    {
+      "id": "4316da79-efbf-49f2-969e-3545f084459b",
+      "title": "Untitled note",
+      "folderId": null,
+      "tags": [],
+      "pinned": false,
+      "blocks": [
+        {
+          "id": "e906dcc2-4a47-4ff7-b6b1-1e66db195ab1",
+          "type": "markdown",
+          "text": ""
+        }
+      ],
+      "createdAt": 1786618090287,
+      "updatedAt": 1786618090287
     }
   ],
   "folders": [],
