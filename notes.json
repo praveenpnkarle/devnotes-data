@@ -90,6 +90,31 @@
           "text": "UPDATE process_data\nSET data = data - 'f_15173'\nWHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;"
         }
       ]
+    },
+    {
+      "id": "2a5b16b0-eb98-4875-bbab-c253ad1ac233",
+      "title": "Regenerate MoM",
+      "folderId": "eae3c8a5-798e-47b1-b8b1-5bff0b00dca1",
+      "tags": [
+        "sql",
+        "snippets"
+      ],
+      "pinned": true,
+      "createdAt": 1786621219509,
+      "updatedAt": 1786621219509,
+      "blocks": [
+        {
+          "id": "43c4298c-6eea-4f66-aacc-f40bdb1ead3d",
+          "type": "markdown",
+          "text": "Query for **deleting a MoM** so it can be regenerated.\n\n> Replace `<YOUR_PROCESS_REF_NUM>` before running."
+        },
+        {
+          "id": "6499621b-7d58-46b8-979e-42d6b96fb0d0",
+          "type": "code",
+          "lang": "sql",
+          "text": "UPDATE process_data\nSET data = data - 'f_15173'\nWHERE process_reference_num = '<YOUR_PROCESS_REF_NUM>'\n  AND activity_template_id = 751;"
+        }
+      ]
     }
   ],
   "folders": [
@@ -97,6 +122,11 @@
       "id": "60446e4a-83d8-494b-9891-1fc69d8c6936",
       "name": "Work",
       "updatedAt": 1786621213509
+    },
+    {
+      "id": "eae3c8a5-798e-47b1-b8b1-5bff0b00dca1",
+      "name": "Work",
+      "updatedAt": 1786621219509
     }
   ],
   "tombstones": []
